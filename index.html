@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Site Studio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="site-template.css">
+</head>
+<body>
+<div class="studio-shell">
+    <header class="studio-header">
+        <div>
+            <p class="eyebrow">Template Studio</p>
+            <h1>Personal Site Studio</h1>
+            <p class="subtitle">Edit content in the browser, drag images into place, save drafts, undo changes, and publish to GitHub.</p>
+        </div>
+        <div class="toolbar">
+            <button type="button" class="toolbar-button" id="save-draft">Save Draft</button>
+            <button type="button" class="toolbar-button" id="undo-change">Undo</button>
+            <button type="button" class="toolbar-button" id="redo-change">Redo</button>
+            <button type="button" class="toolbar-button toolbar-button--primary" id="export-site">Export Site</button>
+        </div>
+    </header>
+
+    <div class="studio-main">
+        <aside class="editor-sidebar">
+            <section class="editor-card status-card">
+                <div>
+                    <h2>Workspace</h2>
+                    <p id="save-status">Draft changes are tracked locally in your browser.</p>
+                </div>
+                <div class="status-actions">
+                    <button type="button" class="link-button" id="import-data">Import JSON</button>
+                    <button type="button" class="link-button" id="reset-template">Reset Template</button>
+                </div>
+            </section>
+
+            <section class="editor-card tips-card">
+                <h2>Quick Tips</h2>
+                <ul>
+                    <li>Click visible text in the preview to edit it directly.</li>
+                    <li>Drag an image inside its frame to change the crop position.</li>
+                    <li>Drop a new image or video file onto a media frame to replace it.</li>
+                    <li>Use Export Site to download `index.html`, `site.css`, and `site-data.json`.</li>
+                </ul>
+            </section>
+
+            <section class="editor-card" id="editor-panel"></section>
+
+            <section class="editor-card github-card">
+                <h2>GitHub Publish</h2>
+                <p class="muted">This uses the GitHub Contents API directly from the browser.</p>
+                <label>
+                    Owner
+                    <input type="text" id="github-owner" placeholder="your-github-name">
+                </label>
+                <label>
+                    Repo
+                    <input type="text" id="github-repo" placeholder="my-personal-site">
+                </label>
+                <label>
+                    Branch
+                    <input type="text" id="github-branch" value="main">
+                </label>
+                <label>
+                    Target Folder
+                    <input type="text" id="github-path" value="">
+                </label>
+                <label>
+                    Commit Message
+                    <input type="text" id="github-message" value="Update personal website">
+                </label>
+                <label>
+                    Personal Access Token
+                    <input type="password" id="github-token" placeholder="ghp_...">
+                </label>
+                <div class="github-actions">
+                    <button type="button" class="toolbar-button toolbar-button--primary" id="publish-github">Upload to GitHub</button>
+                </div>
+                <p class="muted" id="publish-status">Not published in this session.</p>
+            </section>
+        </aside>
+
+        <main class="preview-pane">
+            <div class="preview-frame">
+                <div class="preview-toolbar">
+                    <span>Live Preview</span>
+                    <span class="muted">Editable template based on your current site</span>
+                </div>
+                <div class="preview-stage" id="preview-stage"></div>
+            </div>
+        </main>
+    </div>
+</div>
+<input type="file" id="json-import" accept="application/json" hidden>
+<script src="app.js"></script>
+</body>
+</html>
