@@ -17,7 +17,7 @@
 ## How to use
 
 1. Open `index.html` in a browser.
-   ![](editor.png)
+   ![](assets/editor.png)
 2. Edit text either from the left control panel or directly in the preview.
 3. Drag an image inside a frame to adjust its crop position.
 4. Drop a local image or video file onto a media slot to replace it.
