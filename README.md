@@ -25,12 +25,6 @@
 6. Click `Export Site` to download the generated site files.
 7. Fill in the GitHub section and click `Upload to GitHub` to publish.
 
-## Privacy
-
-- The default template contains only generic placeholder content.
-- No real personal profile, publication list, school, email, or project data is preloaded.
-- Replace all placeholders with your own information before publishing.
-
 ## Publish to GitHub Pages
 
 1. Create a GitHub account at `https://github.com/` if you do not already have one.
