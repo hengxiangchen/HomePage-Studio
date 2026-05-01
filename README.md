@@ -1,6 +1,6 @@
 # HomePage Studio
 
-`HomePage Studio` is a browser-based editor for generating a personal website from a privacy-safe academic homepage template. See a chinese tutorial [here.](personal-site-studio/README.zh-CN.md)
+`HomePage Studio` is a browser-based editor for generating a personal website from a privacy-safe academic homepage template. See a chinese tutorial [here.](README.zh-CN.md)
 
 ## Current capabilities
 
