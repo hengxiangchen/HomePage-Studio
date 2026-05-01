@@ -1,6 +1,6 @@
-# Personal Site Studio
+# HomePage Studio
 
-`Personal Site Studio` is a browser-based editor for generating a personal website from a privacy-safe academic homepage template.
+`HomePage Studio` is a browser-based editor for generating a personal website from a privacy-safe academic homepage template. See a chinese tutorial [here.](personal-site-studio/README.zh-CN.md)
 
 ## Current capabilities
 
