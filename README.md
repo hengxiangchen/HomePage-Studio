@@ -1,6 +1,6 @@
 # HomePage Studio
 
-`HomePage Studio` is a browser-based editor for generating a personal website from a privacy-safe academic homepage template. See a chinese tutorial [here.](README.zh-CN.md)
+`HomePage Studio` is a browser-based editor for generating a personal website from a privacy-safe academic homepage template. See a chinese tutorial [here.](README.zh-CN.md) Also pretty welcome to glance at my homepage [hengxiangchen.github.io](http://hengxiangchen.github.io).
 
 ## Current capabilities
 
@@ -17,6 +17,7 @@
 ## How to use
 
 1. Open `index.html` in a browser.
+   ![](editor.png)
 2. Edit text either from the left control panel or directly in the preview.
 3. Drag an image inside a frame to adjust its crop position.
 4. Drop a local image or video file onto a media slot to replace it.

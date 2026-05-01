@@ -1,6 +1,8 @@
 # HomePage Studio 中文说明
 
-`HomePage Studio` 是一个纯前端个人网页编辑器。它提供一个通用的学术主页模板，支持在浏览器里直接编辑内容、拖动图片位置、替换媒体、保存草稿、撤回修改、导出网页文件，并上传到 GitHub。
+`HomePage Studio` 是一个纯前端个人网页编辑器。它提供一个通用的学术主页模板，支持在浏览器里直接编辑内容、拖动图片位置、替换媒体、保存草稿、撤回修改、导出网页文件，并上传到 GitHub。我的个人网页在[hengxiangchen.github.io](http://hengxiangchen.github.io)，欢迎交流！.
+
+
 
 ## 当前功能
 
